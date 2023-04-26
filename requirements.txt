@@ -1,0 +1,11 @@
+# requirements.txt => streamlit 에서 사용하는 의존성있는 라이브러리 목록
+# requirements.txt  파일이 있으면 배포할 때 서버에서 알아서 설치
+
+pandas
+numpy
+streamlit
+finance-datareader
+plotly
+seaborn
+matplotlib
+koreanize-matplotlib
