@@ -16,7 +16,7 @@ st.write("""
 ### 자동차 연비
 """)
 
-mpg = sns.load_dataset("mpg")
+# mpg = sns.load_dataset("mpg")
 
 st.sidebar.header('User Input Features')
 selected_year = st.sidebar.selectbox('Year',
