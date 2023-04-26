@@ -17,6 +17,7 @@ st.write("""
 """)
 
 # mpg = sns.load_dataset("mpg")
+mpg = pd.read_csv('https://raw.githubusercontent.com/mwaskom/seaborn-data/master/raw/mpg.csv')
 
 st.sidebar.header('User Input Features')
 selected_year = st.sidebar.selectbox('Year',
